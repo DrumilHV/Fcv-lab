@@ -27,7 +27,7 @@ def harris_corner_detector(image, k=0.04, threshold=0.01):
     return output_image
 
 # Load the input image
-input_image = cv2.imread('input_image.jpg')
+input_image = cv2.imread('../resources/img_4.png')
 
 # Detect Harris corners
 output_image = harris_corner_detector(input_image)
